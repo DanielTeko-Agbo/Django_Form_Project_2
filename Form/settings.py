@@ -64,7 +64,7 @@ ROOT_URLCONF = 'Form.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'Templates')],
+        'DIRS': [r'C:\Users\owner\Desktop\FormProject\Form\Templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
