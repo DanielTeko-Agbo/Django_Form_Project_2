@@ -14,7 +14,7 @@ def formView(request):
             return HttpResponseRedirect('../thanks/')
         else:
             form = FormModelForm()
-    return render(request, 'form/base.html', {'form':form})
+    return render(request, 'FormApp/base.html', {'form':form})
 
 def thanksView(request):
-    return render(request, 'form/thanks.html')
+    return render(request, 'FormApp/thanks.html')
